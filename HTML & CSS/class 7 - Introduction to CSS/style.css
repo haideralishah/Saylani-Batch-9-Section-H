@@ -1,5 +1,240 @@
+/* h1{
+    background-color: brown;
+    color: yellow;
+}
+
+h1{
+    background-color: green;
+} */
+
+
+/* body{
+    background-color: aqua;
+    color: red;
+    border: 1px solid black;
+} */
+
+/* span{
+    background-color: green;
+    color: blue;
+} */
+
+/* .special{
+    background-color: bisque;
+    color: coral;
+}
+.my-image{
+    width: 200px;
+    height: 200px;
+} */
+
+
+/* p{
+    background-color: brown;
+    color: yellow;
+} */
+
+
+
+
+
+
+/* 
+h1.special-background{
+    background-color: red;
+    color: beige
+}
+
+p.special-background{
+    background-color: antiquewhite;
+} */
+
+
+
+
+
+
+
+/* 
+#fever-des{
+    font-size: 24px;
+} */
+
+/* 
+h1, .special-background, #fever-des{
+    background-color: red;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* div>p>a{
+    color: red;
+} */
+
+
+
+
+
+
+
+
+
+/* div>ul>li>a
+div, ul, li,  a
+div a */
+
+
+
+
+/* div>ul>li>a{
+    color: red; 
+} */
+
+
+
+
+
+
+/* div.special a{
+    color: aqua;
+}
+
+*{
+    color: red;
+} */
+
+
+
+
+
+
+/* p{
+    color: antiquewhite;
+}
+p{
+    color: blueviolet !important;
+}
+p{
+    color: aquamarine;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+* {
+    font-family: Arial, Verdana, sans-serif;
+}
+h1 {
+    font-family: "Courier New", monospace;
+}
+
+i {
+    color: green;
+}
+
+i {
+   color: red;
+}
+   
+
+p b {
+
+    color: blue !important;
+}
+
+    
+p b {
+    color: red;
+}
+b {
+    color: pink;
+}
+p#intro {
+    font-size: 100%;
+}
+
+p {
+    font-size: 50%;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*
+   
+    
+
+    
+     */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aqua;
+    border: 5px dashed green;
+}
+
+h1{
+    border: inherit;
+}
 
 p{
-    color: red;
-    background-color: yellow;    
+    font-family: Arial, Helvetica, sans-serif;
 }
+
