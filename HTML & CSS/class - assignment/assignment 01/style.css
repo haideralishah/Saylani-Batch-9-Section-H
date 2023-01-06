@@ -1,0 +1,32 @@
+*{
+    color: brown;
+    background-color: beige;
+}
+
+
+h1, ul, li{
+    display: inline;
+}
+
+li>a{
+    text-decoration: none;
+}
+
+div.para{
+    width:100%;
+    border: 1px solid red;
+}
+
+.para-col{
+    float: left;
+    width: 45%;
+    /* border: 1px solid black; */
+}
+
+img{
+    width: 100%;
+}
+
+
+
+

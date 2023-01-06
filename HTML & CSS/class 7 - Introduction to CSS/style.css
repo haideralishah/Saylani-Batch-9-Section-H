@@ -227,7 +227,7 @@ p {
 div{
     font-family: 'Courier New', Courier, monospace;
     background-color: aqua;
-    border: 5px dashed green;
+    /* border: 5px dashed green; */
 }
 
 h1{
@@ -236,5 +236,13 @@ h1{
 
 p{
     font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, ul, li{ 
+    display: inline;
+}
+
+a{
+    /* text-decoration: none; */
 }
 
