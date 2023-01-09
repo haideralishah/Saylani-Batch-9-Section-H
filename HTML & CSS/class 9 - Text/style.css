@@ -1,0 +1,38 @@
+/* 
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+}
+p{
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.special{
+    font-size: 1.5em;
+} */
+
+
+
+
+
+
+
+div{
+    font-size: 20px;
+}
+h1, p{
+    font-size: 1.5em;
+}
+
+/* h1, p{
+    font-size: 50% !important;
+} */
+
+
+h1{
+    font-weight: normal;
+}
+p{
+    font-weight: bold;
+}

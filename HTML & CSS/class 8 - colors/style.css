@@ -1,10 +1,76 @@
-h1{
-    color: red;
-}
+/* h1 {
+  color: red;
+} */
 
+/* p {
+  background-color: rgb(202, 66, 165);
+  color: #ca42a5;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container{
+    background-color: #ca42a5;
+    padding: 5%;
+} */
+/* div>p{
+    background-color: #000;
+    color: rgba(200, 202, 66, 0.5);
+
+    color: #fff;
+    opacity: 0.5;
+}
 p{
-    background-color: rgb(150, 255, 50);
-    color: #a1c1f7
+    color: rgba(202,66,165,0.5);
+} */
 
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1{
+    color: hsla(316, 56%, 53%, 0.5)
 }
+
+
+
+
+
