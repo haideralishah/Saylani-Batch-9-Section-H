@@ -12,10 +12,7 @@ p{
     font-size: 1.5em;
 } */
 
-
-
-
-
+/* 
 
 
 div{
@@ -23,16 +20,91 @@ div{
 }
 h1, p{
     font-size: 1.5em;
-}
+} */
 
 /* h1, p{
     font-size: 50% !important;
 } */
 
-
-h1{
-    font-weight: normal;
+h1 {
+  font-weight: normal;
 }
-p{
-    font-weight: bold;
+p {
+  /* font-weight: bold; */
+}
+
+/* .special-italic {
+  font-size: 32px;
+  color: rgb(255, 136, 0);
+  font-style: italic;
+} */
+/* .special-oblique {
+  font-size: 32px;
+  color: rgb(255, 136, 0);
+  font-style: oblique;
+} */
+
+.special-style {
+  font-style: normal;
+  font-weight: normal;
+}
+
+p {
+  text-transform: uppercase;
+  text-transform: lowercase;
+  text-transform: capitalize;
+}
+
+h1 {
+  text-decoration: overline;
+}
+.special-dec {
+  text-decoration: none;
+}
+
+.special-dec:hover {
+  text-decoration: underline;
+  color: #ffa500;
+  font-size: 17px;
+}
+
+abbr {
+  text-decoration: none;
+}
+
+/* div{
+    font-size: 26px;
+}
+
+h1, p{
+    font-size: 50%;
+} */
+
+h1 {
+  /* word-spacing: 0.9em; */
+  /* letter-spacing: 0.5em; */
+  /* text-indent: -6.5em;     */
+
+  /* text-shadow: 2px 2px 10px #ffa500; */
+
+  text-shadow: 0px 0px 10px #000;
+}
+
+p {
+  /* line-height: 1.9em; */
+  text-align: left;
+  text-align: right;
+  text-align: center;
+  text-align: justify;
+  text-indent: 2.5em;
+}
+
+p:first-letter {
+  font-size: 2em;
+  color: #ff0000;
+}
+
+p:first-line {
+  font-size: 2em;
+  color: #ff0000;
 }
