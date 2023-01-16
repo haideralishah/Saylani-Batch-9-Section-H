@@ -26,9 +26,9 @@ h1, p{
     font-size: 50% !important;
 } */
 
-h1 {
+/* h1 {
   font-weight: normal;
-}
+} */
 p {
   /* font-weight: bold; */
 }
@@ -58,6 +58,7 @@ p {
 h1 {
   text-decoration: overline;
 }
+
 .special-dec {
   text-decoration: none;
 }
@@ -98,13 +99,132 @@ p {
   text-align: justify;
   text-indent: 2.5em;
 }
-
+/* 
 p:first-letter {
   font-size: 2em;
   color: #ff0000;
-}
-
+} */
+/* 
 p:first-line {
   font-size: 2em;
   color: #ff0000;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+  font-family: 'alexbrush';
+  src: url('fonts/AlexBrush-Regular.ttf');
 }
+
+body {
+  background-color: pink;
+  border: 2px dashed red;
+  padding: 25px;
+}
+
+h1, p {
+  color: red;
+  /* font-family: alexbrush;   */
+}
+
+
+
+li>a:visited{
+  color: rgb(152, 60, 60);
+}
+
+li>a:link{
+  color: red;
+}
+
+
+h1:hover{
+  background-color: red;
+  color: pink;
+}
+input{
+  background-color: red;
+}
+
+input:focus{
+  background-color: rgb(249, 13, 52);
+}
+
+input:active{
+  background-color: pink;
+}
+
+
+input[type="text"]{
+  background-color: yellow;
+}
+
+
+input[type="submit"]{
+  background-color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.special{
+  color: #fff;
+}
+
+.special+p{
+  color: green;
+}
+
+.special~p{
+  font-style: italic;
+}
+
+
+
+

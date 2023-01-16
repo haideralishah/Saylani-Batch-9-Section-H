@@ -1,0 +1,34 @@
+
+h1{
+    background-color: antiquewhite;
+    width: 250px;
+    height:100px;
+    text-align: center;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+div{
+    /* width: 900px; */
+    /* height: 200px; */
+}
+p{
+    background-color: antiquewhite;
+    width: 50%;
+    /* height:100px; */
+    /* height:50%;  */
+
+    /* overflow: scroll; */
+
+}
+
+
+
+
+
+p{
+    padding: 30px;
+    margin: 50px;
+    border: 10px double blue;
+}
