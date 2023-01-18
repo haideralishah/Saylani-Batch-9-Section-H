@@ -1,21 +1,22 @@
-
-h1{
+h1 {
     background-color: antiquewhite;
-    width: 250px;
-    height:100px;
-    text-align: center;
+    /* width: 250px;
+    height: 100px; */
+    /* text-align: center; */
 
     /* display: flex;
     justify-content: center;
     align-items: center; */
 }
-div{
+
+div {
     /* width: 900px; */
     /* height: 200px; */
 }
-p{
+
+p {
     background-color: antiquewhite;
-    width: 50%;
+    /* width: 50%; */
     /* height:100px; */
     /* height:50%;  */
 
@@ -27,8 +28,148 @@ p{
 
 
 
-p{
-    padding: 30px;
-    margin: 50px;
-    border: 10px double blue;
+p {
+    /* padding: 30px; */
+    /* margin: 50px; */
+    /* border: 5px solid green; */
 }
+
+
+p {
+    /* padding: 40px 20px 0px 70px;
+    margin: 70px 20px 30px 140px; */
+    /* border: 1px solid black; */
+
+
+
+
+
+
+
+    /* border-width: 10px 25px 0px 5px;
+    border-style: dotted double solid dashed;
+    border-color: green red yellow blue;     */
+
+
+    /* padding-left: 70px;
+    padding-right: 40px;
+    padding-top: 90px;
+    padding-bottom: 50px; */
+
+
+
+
+
+
+
+    /* margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 90px; */
+
+
+
+
+    /* border-left: 10px solid black;
+    border-right: 20px double blue;
+    border-bottom: 30px dashed green;
+    border-top: 100px dotted red; */
+
+
+
+
+
+    /* border: 1px solid black;
+    border-top-width: 40px;
+    border-bottom-width: 40px;
+    border-bottom-style: dotted; */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+/* .container{
+    background-color: pink;
+    margin: 30px;
+    padding: 40px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1, p{
+    /* background-color: #fff; */
+     /* width: 200px; */
+    /* margin: 0 auto; */
+    /* text-align: center;  */
+}
+
+
+/* p{
+    margin: 10px auto;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+} */
+
+
+
+
+
+h1{
+    width: 50%;
+    max-width: 250px;
+    min-width: 150px;
+}
+
+
+
+img{
+    width:50%;
+    max-width: 300px;
+    min-width: 200px;
+}
+
+div{
+    background-color: pink;
+    height: 400px;
+}
+
+p{
+    height:50%;
+    max-height: 250px;
+    min-height: 100px;
+}
+
+
