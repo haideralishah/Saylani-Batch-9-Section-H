@@ -148,9 +148,12 @@ h1, p{
 
 
 h1{
-    width: 50%;
-    max-width: 250px;
-    min-width: 150px;
+    width: 90%;
+    /* background-color: #fff; */
+    /* margin: 0 auto;
+    text-align: center; */
+    /* max-width: 250px;
+    min-width: 150px; */
 }
 
 
@@ -162,8 +165,8 @@ img{
 }
 
 div{
-    background-color: pink;
-    height: 400px;
+    /* background-color: pink; */
+    /* height: 400px; */
 }
 
 p{
@@ -173,3 +176,35 @@ p{
 }
 
 
+
+h1, ul, li{
+    display: inline;
+}
+
+li{
+    margin-right: 30px;
+    /* padding: 10px; */
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+}
+a:hover{
+    text-decoration: underline;
+    background-color: #000;
+    color: #fff;
+}
+
+
+.strong-block{
+    display: block;
+    font-size: 32px;
+    
+}
+
+.span-block{
+    display: block;
+    font-size: 16px;
+}

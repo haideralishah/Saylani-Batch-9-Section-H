@@ -1,0 +1,40 @@
+
+
+/* h1{
+    background-color: antiquewhite;
+    width: 250px;
+    display: inline-block;
+} */
+
+.special{
+    /* display: none; */
+    /* visibility: hidden; */
+}
+
+/* body{
+    padding:20px;
+    color: red;
+    border: 25px solid red;
+    border-image: url("./images/borderimage.jpg") 40 round;
+
+} */
+
+
+
+
+
+body{
+    background-color: pink;
+    border: 5px solid red;
+    padding: 20px;
+
+
+    box-shadow: -10px -10px 20px #000;
+    border-radius: 0px 20px 70px 0px;
+
+
+
+
+
+
+}
