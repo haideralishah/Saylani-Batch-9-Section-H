@@ -23,18 +23,40 @@
 
 
 
-body{
+/* body{
     background-color: pink;
     border: 5px solid red;
     padding: 20px;
-
-
     box-shadow: -10px -10px 20px #000;
     border-radius: 0px 20px 70px 0px;
+} */
 
 
 
 
+
+
+
+
+
+
+
+p.special{
+    border: 1px solid black;
+    padding: 20px;
+    box-shadow: 5px 5px 10px 10px inset #ff0000;
+
+    border-radius: 50px 40px 10px 80px / 5px 10px 35px 100px;
 
 
 }
+
+
+
+
+
+
+
+
+
+
