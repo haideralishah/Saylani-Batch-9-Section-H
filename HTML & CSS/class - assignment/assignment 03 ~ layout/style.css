@@ -1,0 +1,139 @@
+*{
+    background-color: antiquewhite;
+}
+.header{
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+   
+}
+
+
+    h1, ul, li   {    
+        display: inline;
+    }
+
+    ul{
+        margin-left: 80px;
+    }
+
+    li{
+        padding: 10px;
+        padding-bottom: 0;
+    }
+
+    li>a{
+        color: #000;
+        text-decoration: none;
+    }
+
+
+    .intro-para{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 45px;
+        background-color: burlywood;
+    }
+
+    .intro-para > p{
+        background-color: beige;
+        position: relative;
+        top: 10px;
+        left: 10px;
+        border: 1px solid black;
+    }
+
+    
+    .col-layout > .col-1,  .col-layout > .col-2 {
+        width: 47%;
+        padding: 1%;      
+        float: left;
+        background-color: burlywood;
+        border: 1px solid black;       
+       
+    }
+
+    .col-layout  p{
+        background-color: beige;
+        position: relative;
+        top: 10px;
+        left: 10px;
+    }
+
+
+    .col-3-layout > p {
+        width: 30%;
+        padding: 1%;
+        float: left;
+        background-color: beige;
+        border: 1px solid black;
+    }
+
+
+    .clear{
+        clear: both;
+    }
+
+
+    img.absolute{
+        position: absolute;
+        top:121px;
+        left:180px; 
+        
+    }
+
+
+
+
+
+    .center-image{
+        display: block;
+        margin: 0 auto;
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.background-img{
+    background: url("background.jpg") no-repeat fixed center center;
+}
+
+
+

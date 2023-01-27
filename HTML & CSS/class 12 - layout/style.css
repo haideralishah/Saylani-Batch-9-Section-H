@@ -37,18 +37,18 @@ p{
 
 
 
-
+/* 
 
 p{
     position: relative;
     top: 50px;
 
-    /* width: 45%;
+     width: 45%;
     float: left;
-    margin: 10px; */
-}
+    margin: 10px; 
+} */
 
-h1{
+/* h1{
     background-color: red;
     position: fixed;
     margin: 0;    
@@ -57,4 +57,87 @@ h1{
     top: 0px;
     left: 0px;
     z-index: -10;
+} */
+
+
+
+
+
+
+
+
+
+/* 
+.special{
+    width: 20%;
+    border: 1px solid black;
+    padding: 5px;
+    float: right;
+} */
+
+.clear{
+    /* clear: right; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* p{
+    width: 29.3%;
+    padding: 0 1%;
+    margin: 5px auto; 
+    float: left;
+} */
+
+
+
+
+
+
+.col-1, .col-2, .col-3{
+    float: left;
+    border: 1px solid black;    
+}
+.col-1{
+    width: 48%;
+    
+}
+.col-2, .col-3{
+    width: 23%;
 }
