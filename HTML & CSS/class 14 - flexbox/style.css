@@ -162,22 +162,27 @@ p{
 p{
     border: 1px solid red;
     width: 200px;
-    padding: 5px;
+    padding: 0px;
+    margin: 0;
 }
 
 div{
     border: 1px solid blue;
+    
     height: 400px;    
     display: flex;
+    
     /* flex-direction: column; */
     justify-content: space-around;
-    align-items: center;
-    align-content: space-between;
+    /* align-items: flex-end; */
+    /* align-content: space-evenly; */
     flex-wrap: wrap;
 }
 
 
 .self-align{
     /* align-self: flex-end; */
-
+    /* flex-grow: 2; */
+    /* flex-basis: 250px;
+    flex-shrink: 0; */
 }

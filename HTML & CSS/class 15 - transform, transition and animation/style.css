@@ -1,0 +1,132 @@
+p{
+    /* background-color: antiquewhite; */
+    
+}
+
+.special{
+    /* transform: translate(20px, 10px); */
+    /* transform: rotateZ(120deg); */
+    /* transform: skew(20deg, 10deg); */
+    /* transform: scale(1.5); */
+    /* transform: matrix(1, -0.3, 0, 1, 0, 0); */
+}
+
+
+
+
+
+
+
+
+
+
+h1{
+    /* background-color: aqua;
+    width: 200px; */
+    /* transition: background-color 4s, transform 4s, width 4s,font-size 4s; */
+    
+    /* transition-property: width; */
+    /* transition-delay: 2s; */
+    /* transition-duration: 4s;
+    transition-timing-function: ease-in-out;  */
+
+}
+
+h1:hover{
+    /* background-color: burlywood; */
+    /* transform: rotate(180deg); */
+    /* width: 500px; */
+    /* font-size: 48px; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Styling for Animation */
+
+@keyframes position-change {
+    from{
+        left: 0px;
+        background-color: aqua;
+        /* color:#000; */
+        /* transform: rotate(0deg); */
+    }
+    to{
+        left: 300px;
+        background-color: red;
+        /* color:#fff; */
+        /* transform: rotate(180deg); */
+    }
+}
+
+h1{
+    /* background-color: aqua; */
+    width: 200px;
+    position: relative;
+    animation-name: position-change;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-in-out;
+
+
+
+}
+
+
+p{
+    position: relative;
+    animation-name: position-change;
+    /* animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count:infinite; */
+}
