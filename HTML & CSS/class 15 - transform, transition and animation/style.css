@@ -95,13 +95,13 @@ h1:hover{
 
 @keyframes position-change {
     from{
-        left: 0px;
+        left: -200px;
         background-color: aqua;
         /* color:#000; */
         /* transform: rotate(0deg); */
     }
     to{
-        left: 300px;
+        left: 1350px;
         background-color: red;
         /* color:#fff; */
         /* transform: rotate(180deg); */
@@ -114,9 +114,9 @@ h1{
     position: relative;
     animation-name: position-change;
     animation-duration: 4s;
-    animation-direction: alternate;
+    /* animation-direction: alternate; */
     animation-iteration-count:infinite;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: linear;
 
 
 
