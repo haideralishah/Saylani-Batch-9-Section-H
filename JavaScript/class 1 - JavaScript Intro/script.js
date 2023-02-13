@@ -138,14 +138,250 @@
 
 
 
-var defName = "Saylani Welfare Internation Trust";
-var question = 'Where do you study?'
+// var defName = "Saylani Welfare Internation Trust";
+// var question = 'Where do you study?'
 
-var instName = prompt(question, defName);
+// var instName = prompt(question, defName);
 
-console.log(instName);
-
-
+// console.log(instName);
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// alert("Haider");
+// console.log("Akbar");
+// prompt("What is your name?");
+
+
+
+
+
+
+
+
+
+
+
+
+
+// console.log(prompt("what is your name?"));
+
+
+
+
+
+
+// console.log("1" + "2");
+
+
+
+
+
+// console.log("haider" + " " +  "ali");
+
+
+
+
+
+
+
+
+
+// console.log("2" * "3");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var schoolFee = 500;
+// var vadTaxRate = 10;
+// var vadTax = schoolFee / 100 * vadTaxRate;
+// var totalFee = schoolFee + vadTax; // 550               
+
+// console.log(totalFee);
+
+
+
+// schoolFee = 450;
+// vadTax = schoolFee / 100 * vadTaxRate;
+// totalFee = schoolFee + vadTax;
+// console.log(totalFee);
+
+
+
+
+
+
+
+
+
+// var num1 = 57;
+// var num2 = 5;
+// var remainder = num1 % num2;
+// console.log(remainder)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var favNumber = +prompt('what is your favorite number?');
+// var anotherFavNumber = +prompt('what is your another favorite number?');
+
+// console.log(favNumber + anotherFavNumber);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var userName;
+// userName = "haider";
+
+// var userName = "haider";
+
+
+
+
+
+
+
+
+
+
+
+
+// var userName, fees, tax;
+
+// userName = "haider";
+// fees = 500;
+// tax = 10;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// alert();
+// console.log();
+// prompt();
+// document.write();
+
+// var userName = prompt('what is your name?');
+// document.write("<h1>Welcome " + userName + "</h1>");
 
