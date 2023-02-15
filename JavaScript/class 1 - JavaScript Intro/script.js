@@ -385,3 +385,100 @@
 // var userName = prompt('what is your name?');
 // document.write("<h1>Welcome " + userName + "</h1>");
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// alert
+// console.log
+// prompt
+// document.write
+
+
+
+
+
+
+
+
+// document.write("<h1>Welcome Haider</h1>");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// console.log("welcome \n JS");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var userName = prompt("what is your name?");
+
+// var message = "<h1>Welcome " + userName + " to our site!</h1>";
+
+// document.write(message);
+// console.log(message);
+
