@@ -71,6 +71,69 @@ var var1Name, var2Name, var3Name;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // function sumNumbers(){
 //     var num1 = +prompt('enter a number.');
 //     var num2 = +prompt('enter another number.');
@@ -180,12 +243,234 @@ var var1Name, var2Name, var3Name;
 
 
 
-function sum(num1, num2){
-    document.write(num1 + num2 + "<br />");
-} 
-sum(4, 6);
-sum(8, 9);
-sum(7.33, 30);
+// function sum(num1, num2){
+//     document.write(num1 + num2 + "<br />");
+// } 
+// sum(4, 6);
+// sum(8, 9);
+// sum(7.33, 30);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function sum(){
+//     var num1 = +prompt('enter a number');
+//     var num2 = +prompt('enter another number');
+//     console.log(num2 + num1);
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function displayMsg(userName, greet) {
+//     console.log(greet + " " + userName);
+// }
+// displayMsg("Haider", "Assalamualiukum");
+// displayMsg("Jhon", "Hello");
+// displayMsg("Deviparsaad", "uthale re deva");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+document.write('Hello World!'); 
+
+
+
+
+
 
 
 
