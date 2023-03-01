@@ -307,3 +307,209 @@ array.splice()
 
 
 
+
+
+
+// var fruits = ['apple', 'banana'];
+// console.log(fruits);
+// var userFavFruit = prompt('what is your favorite fruit?');
+// fruits.push(userFavFruit);
+
+// console.log(fruits);
+
+
+
+
+
+
+// var fruits = ['apple', 'banana', 'mango', 'pineapple'];
+
+// // fruits.splice(2, 1, "Orange", "Kivi");
+// var userFavFruits = prompt('what is your fav fruit?');
+// var userUnFavFruitIndx = prompt('what is the index of your un favorite fruit?');
+
+// fruits.splice(userUnFavFruitIndx, 1, userFavFruits);
+
+// console.log(fruits);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var fruits = ['apple', 'banana', 'mango', 'pineapple', 'orange', 'kivi'];
+
+// var specialFruits = fruits.slice(1, 4);
+
+
+// console.log(specialFruits,fruits);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//loop
+/*
+starting point
+ending point
+any change
+
+after qualification
+new learning
+course completion
+
+
+
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+// for(var i = 0; i < 10; i++){
+//     console.log(i);
+// }
+// console.log('loop completed');
+
+
+
+
+
+
+
+// var fruits = ['apple', 'banana', 'orange'];
+// for(var i =0; i < 3; i++){
+//     console.log(fruits[i]);
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// for(var i = 1; i <= 100; i++){
+//     console.log(i);
+// }
+
+
+
+
+
+
+
+
+
+
+
+ 
+// for(var i = 100; i > 0; i--){
+//     console.log(i);
+// }
+
+
+
+// for(var i = 0; i <= 20; i = i + 2){
+//     console.log(i);
+// }
+
+
+
+
+
+
+// var start = +prompt('where to start from?');
+// var end = +prompt('where to end loop?');
+
+// for(var i = start; i <= end; i++){
+//     console.log(i);
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// for(var i = 0; i < 10; i++){
+//     console.log(i);
+// }
+
+
+
+var tableName = +prompt('enter a table number');
+var end = +prompt('where you want to stop table');
+//2 x 1 = 2
+for(var i = 1; i <= end; i++){
+    console.log(tableName + " x " + i + ' = ' + tableName * i);
+}
