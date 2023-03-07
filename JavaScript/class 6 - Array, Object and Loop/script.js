@@ -507,9 +507,173 @@ course completion
 
 
 
-var tableName = +prompt('enter a table number');
-var end = +prompt('where you want to stop table');
-//2 x 1 = 2
-for(var i = 1; i <= end; i++){
-    console.log(tableName + " x " + i + ' = ' + tableName * i);
+// var tableName = +prompt('enter a table number');
+// var end = +prompt('where you want to stop table');
+// //2 x 1 = 2
+// for(var i = 1; i <= end; i++){
+//     console.log(tableName + " x " + i + ' = ' + tableName * i);
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var p = document.querySelector('.mobile-brands')
+// var mobiles = ['Nokia','Samsung', 'Apple', 'Sony', "Q-Mobile"];
+
+// for(var i = 0; i < mobiles.length; i++){
+//     p.innerHTML = p.innerHTML +  mobiles[i] + "<br />" ;
+// }
+
+
+
+
+
+
+
+
+
+
+// var p = document.querySelector('.mobile-brands');
+// var fruits = ['apple', 'banana', 'mango', 'pineapple', 'orange', 'kivi'];
+
+// for(var i = 0; i < fruits.length; i++){
+//     p.innerHTML = p.innerHTML + fruits[i] + "<br />";
+// }
+
+
+
+
+
+
+
+
+
+
+
+// var arraySize = +prompt('enter array size');
+// var favFruits = [];
+// for(var i = 0; i < arraySize; i++){
+//     var userInput = prompt('what is your favorite fruit?');
+//     // favFruits.push(userInput);
+//     favFruits[i] = userInput;
+// }
+// console.log(favFruits);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var fruits = ['apple', 'banana', 'mango', 'pineapple', 'orange', 'kivi'];
+// var favFruit = prompt('what is your fav fruit?');
+
+// for(var i = 0; i< fruits.length; i++){
+//     if(fruits[i] === favFruit){
+//         console.log('favorite fruit found in inventory.');
+//         break;
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var fruits = ['apple', 'banana', 'mango', 'pineapple', 'orange', 'kivi'];
+// var favFruit = prompt('what is your fav fruit?');
+
+// if(fruits.includes(favFruit)){
+//     console.log('Favorite fruit found in inventory.');
+// }
+// else{
+//     console.log('Fruit not found.')
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var fruits = ['apple', 'banana', 'mango', 'pineapple', 'orange', 'kivi'];
+// var favFruit = prompt('what is your fav fruit?');
+
+// if(fruits.includes(favFruit)){
+//     console.log('Favorite fruit found in inventory at index number ' + fruits.indexOf(favFruit));
+// }
+// else{
+//     console.log('Fruit not found.')
+// }
+
+
+
+
+
+
+
+var p = document.querySelector(".mobile-brands")
+for(var i = 0; i< 4; i++){
+    p.innerHTML = p.innerHTML + "*****" + "<br />"
 }
+
+
+
+
+
