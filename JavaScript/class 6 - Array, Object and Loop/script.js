@@ -465,7 +465,7 @@ course completion
 
 
 
- 
+
 // for(var i = 100; i > 0; i--){
 //     console.log(i);
 // }
@@ -668,10 +668,431 @@ course completion
 
 
 
-var p = document.querySelector(".mobile-brands")
-for(var i = 0; i< 4; i++){
-    p.innerHTML = p.innerHTML + "*****" + "<br />"
-}
+// var p = document.querySelector(".mobile-brands")
+// for(var i = 0; i< 4; i++){
+//     p.innerHTML = p.innerHTML + "*****" + "<br />"
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var cleanestCities = ['Quetta', "Islamabad", "Rawal Pindi", "Hunza"];
+// var cityToCheck = prompt('where do you live?'); // Quetta
+// var isMatchFound = false;
+// for(var i = 0; i < cleanestCities.length; i++){
+//     if(cityToCheck === cleanestCities[i]){
+//         matchFound = true;
+//         break;        
+//     }
+// }
+
+// if (!isMatchFound) {
+//     alert("It's not on the list");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var cleanestCities = ['Quetta', "Islamabad", "Rawal Pindi", "Hunza"];
+// var cityToCheck = prompt('where do you live?'); 
+
+// var isMatchFound = cleanestCities.includes(cityToCheck); // true or false
+
+// if(isMatchFound){
+//     console.log('You live in a clean city.');
+// }   
+// else{
+//     console.log('You do not live in a clean city.');
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var num = [1, 2, 3, 4, 15, 6];
+// var isDivisible = false;
+// for(var i= 0; i< num.length; i++){
+//     if(num[i] % 5 === 0){
+//         isDivisible = true;
+//         break;
+//     }
+// }
+
+
+// if(isDivisible){
+//     console.log("divisible found");
+// }
+// else{
+//     console.log("divisible not found");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// for(var i=0; i< 10; i++){
+//     for(var j = 0; j < 10; j++){
+//         for(var k = 0; k < 10; k++){
+//             console.log(i, j, k);
+//         }
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var firstNames = ['Abdullah', "Akram", "Ehsaan", "Aslam"];
+// var lastNames = ['Ali', "Hussain", "Ahmed"]
+// var sirNames = ["Khan", "Ansari", "Baloch"];
+// for(var i = 0; i< firstNames.length; i++){
+//     for(var j = 0; j <lastNames.length; j++){
+//         for(var k =0; k < sirNames.length; k++){
+//             var fullNames = firstNames[i] + " " + lastNames[j] + " " + sirNames[k];
+//             console.log(fullNames);
+//        }
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var firstNames = ['Abdullah', "Akram", "Ehsaan"];
+// var lastNames = ['Ali', "Hussain", "Ahmed"];
+// for(var i = 0; i < firstNames.length; i++){
+//     console.log(firstNames[i] + " " + lastNames[i]);
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var cleanestCities = ['quetta', "islamabad", "rawal pindi", "hunza"];
+// var cityToCheck = prompt('where do you live?'); //
+
+// var isMatchFound = cleanestCities.includes(cityToCheck.toLowerCase()); 
+
+// if(isMatchFound){
+//     console.log('You live in a clean city.');
+// }   
+// else{
+//     console.log('You do not live in a clean city.');
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var userName = prompt('what is your name?');
+// haider   HAIDER   haIDEr  HAIdeR
+// Haider
+var firstChr = userName[0].toUpperCase();
+var restChr = userName.slice(1).toLowerCase();
+var titleCase = firstChr + restChr
+
+console.log(titleCase);
+
+
+
+
+
+
+
 
 
 
