@@ -129,25 +129,102 @@
 
 
 
-var imgElement = document.querySelectorAll('img')[0];
-function tossCoin(userPick) {
-    var ranNum = Math.ceil(Math.random() * 2);
-    if (ranNum === 1) {
-        imgElement.src = "./images/head.jfif";
-    }
-    else if (ranNum === 2) {
-        imgElement.src = "./images/tail.jfif";
-    }
+// var imgElement = document.querySelectorAll('img')[0];
+// function tossCoin(userPick) {
+//     var ranNum = Math.ceil(Math.random() * 2);
+//     if (ranNum === 1) {
+//         imgElement.src = "./images/head.jfif";
+//     }
+//     else if (ranNum === 2) {
+//         imgElement.src = "./images/tail.jfif";
+//     }
 
-    if ((userPick === 'head' && ranNum === 1) || (userPick === 'tail' && ranNum === 2)) {
-        console.log("you won the toss");
-    }
-    else {
-        console.log("you loss the toss");
-    }
+//     if ((userPick === 'head' && ranNum === 1) || (userPick === 'tail' && ranNum === 2)) {
+//         console.log("you won the toss");
+//     }
+//     else {
+//         console.log("you loss the toss");
+//     }
 
 
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var todoInput = document.querySelectorAll(".todo-input")[0];
+var ol = document.querySelectorAll('#todo-list')[0]; 
+
+function addTodo(){    
+    var newTodo =  todoInput.value;
+    ol.innerHTML = ol.innerHTML + "<li>"+ newTodo + "</li>";
+    todoInput.value = "";
 }
+
+
+
+
+
+
 
 
 

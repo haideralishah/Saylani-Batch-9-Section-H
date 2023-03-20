@@ -59,6 +59,8 @@ string.replace();
 
 string.split();
 
+num.toString();
+
 */
 
 
@@ -70,6 +72,13 @@ Math.round();
 Math.ceil();
 Math.floor();
 Math.random();
+
+parseInt();
+parseFlot();
+Number();
+isNaN();
+.toFixed(decimalPlaces);
+
 
 */
 
@@ -326,6 +335,150 @@ str.split("-")
 // }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var num = "54684";
+// console.log(typeof(num), typeof(54684), typeof(true), typeof({}), typeof([]), typeof(function(){}), typeof(undefined));
+
+// String
+// Number
+// Boolean
+// undefined
+// null
+// BigInt
+// Symbol
+
+// Object
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var num = "54684.548";
+// console.log(parseInt(num));
+// console.log(parseFloat(num));
+// console.log(Number(num));
+
+
+
+
+
+
+
+
+
+// var fruit = 55;
+// var num = 2;
+// if (isNaN(fruit) || isNaN(num)) {
+//     console.log('Numbers expected');
+// }
+// else {
+//     console.log(fruit * num);
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var num = 5.875617559647;
+// console.log(Number(num.toFixed(2)));
+// console.log("$" + num.toFixed(2));
+
+
+
+
+
+
+
+
+
+
+
+
+
+var pin = 1122;
+console.log(pin.toString());
 
 
 
