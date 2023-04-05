@@ -176,21 +176,76 @@
 
 
 
-var m = 0;
-var s = 0;
-function startTimer(){
-    console.log(m + " : " + s);
-    s++;
-    if(s===60){
-        s= 0;
-        m++;
-    }
-    if(m === 2){
-        clearInterval(timerRef);
-    }
-}
+// var m = 0;
+// var s = 0;
+// function startTimer(){
+//     console.log(m + " : " + s);
+//     s++;
+//     if(s===60){
+//         s= 0;
+//         m++;
+//     }
+//     if(m === 2){
+//         clearInterval(timerRef);
+//     }
+// }
 
-var timerRef = setInterval(startTimer, 100);
+// var timerRef = setInterval(startTimer, 100);
+
+
+
+
+
+
+
+
+
+
+// var h1 = document.querySelectorAll('.msg')[0];
+// function greetUser(){
+//     h1.innerHTML = 'Welcome to our site!';
+// }
+// var greetMsg;
+// function greetDelayedMsg(){
+//     greetMsg = setTimeout(greetUser, 5000);
+// }
+
+
+
+
+
+
+
+
+
+// function checkSeconds(){
+//     var seconds = new Date().getSeconds();
+//     console.log(seconds);
+//     if(seconds % 10 === 0){
+//         clearTimeout(greetMsg);
+//         clearInterval(checkSecInterval);
+//     }
+// }
+// var checkSecInterval = setInterval(checkSeconds, 1000)
+
+
+
+
+
+
+
+
+
+
+var i = 0;
+var iInterval = setInterval(function(){
+    console.log(i++);
+    if(i === 10){
+        clearInterval(iInterval);
+    }
+}, 1000);
+
+
 
 
 
