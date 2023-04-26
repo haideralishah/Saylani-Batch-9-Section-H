@@ -166,15 +166,15 @@
 
 
 
-// function sum(num1, num2) {
-//     alert('Hello');
-//     var total = num1 + num2;
-//     return total;    
-// }
+function sum(num1, num2) {
+    alert('Hello');
+    var total = num1 + num2;
+    return total;    
+}
 
-// var totalOfTwo = sum(4, 6);
+var totalOfTwo = sum(4, 6);
 
-// console.log(totalOfTwo);
+console.log(totalOfTwo);
 
 
 
