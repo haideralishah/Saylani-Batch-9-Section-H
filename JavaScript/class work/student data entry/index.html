@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+
+        <label>Student Name: <input type="text" name="student-name" id="student-name" /></label> <br />
+        <label>Father Name: <input type="text" name="father-name" id="father-name" /></label><br />
+        <label>Role Number: <input type="text" name="roll-number" id="roll-number" /></label><br />
+        <label>Weekdays <input type="radio" name="class-timings" value="weekdays" class="class-timings" /></label>
+        <label>Weekend <input type="radio" name="class-timings" value="weekend" class="class-timings" /></label><br />
+        <select name="subject" id="subject">
+            <option value="" hidden>Select Subject</option>
+            <option value="Web & Mobile App">Web & Mobile App</option>
+            <option value="AI">AI</option>
+            <option value="Blockchain">Blockchain</option>
+        </select><br />
+        <button onclick="registerNewStudent()">Register New Student</button>
+
+    </div>
+
+    <p id="error-msg"></p>
+
+    <div id="students-data">
+              
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

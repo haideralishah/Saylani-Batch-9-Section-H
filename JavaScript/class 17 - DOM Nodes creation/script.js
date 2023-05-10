@@ -443,38 +443,54 @@ add todo item in last with DOM methods and backtick string
     delete an item from the list
     parent.removeChild(childToRemove)
 */
-var newTodoInput = document.querySelectorAll('#new-todo')[0];
-var todoList = document.querySelectorAll('#all-todos')[0];
-function addNewTodo(){
-    cretElmntWdDOMMthds();
-    // cretElmntWdString();
-}
+// var newTodoInput = document.querySelectorAll('#new-todo')[0];
+// var todoList = document.querySelectorAll('#all-todos')[0];
+// function addNewTodo(){
+//     cretElmntWdDOMMthds();
+//     // cretElmntWdString();
+// }
 
-function cretElmntWdDOMMthds(){
-    var liElement = document.createElement("LI");
-    var newTodo = document.createTextNode(newTodoInput.value);
-    liElement.appendChild(newTodo);
+// function cretElmntWdDOMMthds(){
+//     var liElement = document.createElement("LI");
+//     var newTodo = document.createTextNode(newTodoInput.value);
+//     liElement.appendChild(newTodo);
 
-    var delBtn = document.createElement('BUTTON');
-    var delBtnText = document.createTextNode("Delete");
-    delBtn.appendChild(delBtnText);
-    delBtn.setAttribute('onclick', 'deleteTodo(this)')
+//     var delBtn = document.createElement('BUTTON');
+//     var delBtnText = document.createTextNode("Delete");
+//     delBtn.appendChild(delBtnText);
+//     delBtn.setAttribute('onclick', 'deleteTodo(this)')
     
-    liElement.appendChild(delBtn);
+//     liElement.appendChild(delBtn);
 
-    todoList.appendChild(liElement);
-    newTodoInput.value = ""; 
-}
-
-
-function cretElmntWdString(){
-    todoList.innerHTML = `<li>${newTodoInput.value}</li>${todoList.innerHTML}`;
-    newTodoInput.value = "";
-}
+//     todoList.appendChild(liElement);
+//     newTodoInput.value = ""; 
+// }
 
 
+// function cretElmntWdString(){
+//     todoList.innerHTML = `<li>${newTodoInput.value}</li>${todoList.innerHTML}`;
+//     newTodoInput.value = "";
+// }
 
-function deleteTodo(elementToDelete){    
-    // parent.removeChild(childToRemove)
-    todoList.removeChild(elementToDelete.parentNode)
-}
+
+
+// function deleteTodo(elementToDelete){    
+//     // parent.removeChild(childToRemove)
+//     todoList.removeChild(elementToDelete.parentNode)
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
