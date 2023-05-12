@@ -54,7 +54,7 @@ function printWithBacktick(student) {
         <h2>${student.rollNumber}</h2>
         <h3>${student.classDays}</h3>
         <h3>${student.subject}</h3>
-
+    
     </div>`;
     stdntDiv.innerHTML += data;
 }
