@@ -1,0 +1,28 @@
+VCS
+Git
+
+
+github account creation
+git install
+
+git config --global user.name 
+git config --global user.name "userNameValue"
+
+
+git config --global user.email
+git config --global user.email "emailAddress"
+
+
+
+Repository level:
+git init
+git status
+
+git add filename
+git commit -m "commit message"
+
+git log
+
+
+git remote add origin repositoryURL
+git push -u origin master
